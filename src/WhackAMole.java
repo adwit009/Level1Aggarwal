@@ -52,10 +52,10 @@ public void actionPerformed(ActionEvent e) {
 		speak("ow");
 		molesWacked ++;
 		b.dispose();
-if (molesWacked == 1) {
+if (molesWacked == 2) {
 			
 	endGame(timeAtStart, molesWacked);
-re = false;		
+System.exit(0);	;	
 }
 		
 	if ( re = true) {
@@ -78,8 +78,9 @@ e.printStackTrace();
 private void endGame(Date timeAtStart, int molesWhacked) {
 Date timeAtEnd = new Date();
 JOptionPane.showMessageDialog(null, "Your whack rate is "
-+ ((timeAtEnd.getTime() - timeAtStart.getTime()) / (1000.00 / molesWhacked)) + " moles per second.");
++ ((timeAtEnd.getTime() - timeAtStart.getTime()) / 1000.00 / molesWhacked) + " moles per second.");
 }
+
 
 }
 
