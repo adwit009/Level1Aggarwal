@@ -1,4 +1,5 @@
 /CalculatorUsingGUIEdit.class
+/CowTimer.class
 /Human.class
 /Plane.class
 /PlaneRunner.class
@@ -16,6 +17,13 @@
 /rightkey.png
 /robotArmyRunner.class
 /sketch_170930a/
+/sketch_171104a/
 /upkey.png
-/cowTimer.class
-/CowTimer.class
+/MakeTea.class
+/Cup.class
+/Kettle$Water.class
+/Kettle.class
+/TeaBag.class
+/TeaMaker.class
+/MagicBox.class
+/MediaPalace.class
